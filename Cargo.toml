@@ -1,0 +1,12 @@
+[package]
+name = "routing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.83"
+regex = "1.11.1"
+serde = "1.0.215"
+
+[lib]
+doctest = false
